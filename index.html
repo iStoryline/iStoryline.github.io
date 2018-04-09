@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <meta charset='utf-8' />
+  <title>Storyline Material</title>
+  <style type="text/css">
+    .content-wrapper {
+      display: flex;
+      flex-direction: column;
+      padding: 0 550px;
+    }
+
+    .header-wrapper {
+      flex: 0 1 100px;
+      display: flex;
+      flex-direction: row;
+    }
+
+    .header {
+      flex: 0 1 80%;
+    }
+
+    .title1 {
+      font-size: 36px;
+    }
+
+    .title2 {
+      font-size: 14px;
+    }
+
+    .project {
+      flex: 0 1 20%;
+      font-size: 14px;
+      font-variant: small-caps;
+      color: #2A5DB0;
+      text-align: right;
+      padding: 35px 0 0 15px;
+    }
+
+    .content {
+      flex: 0 1;
+    }
+
+    .section-title {
+      text-align: center;
+    }
+
+    #teaser {
+      padding: 0 25px;
+    }
+
+    .section-title-wrapper {
+      display: flex;
+      flex-direction: row
+    }
+
+    .section-title {
+      flex: 0 1 85%;
+      text-align: center;
+      font-size: 28px;
+    }
+
+    .section-gallery {
+      flex: 0 1;
+      font-size: 14px;
+      padding: 12px 0 0 0;
+      color: #2A5DB0;
+    }
+  </style>
+</head>
+<body>
+  <div class="content-wrapper">
+    <div class="header-wrapper">
+      <div class="header">
+        <div class="title1">
+          Storyline Revisited
+        </div>
+        <div class="title2">
+          Effective Converges to Hand Drawn Storyline
+        </div>
+      </div>
+      <div class="project">
+        <a href="https://github.com/tangtan/storyline">PROJECT HOME</a>
+      </div>
+    </div>
+    <div class="content">
+      <section id="teaser" class="section">
+        <img src="./teaser.png">
+      </section>
+      <section id="homework1" class="section">
+        <div class="section-title-wrapper">
+          <div class="section-title"><b>Idea Inspiration</b></div>
+          <div class="section-gallery"><a href="https://github.com/tangtan/storyline/tree/master/01_idea_inspiration_drafts">gallery</a></div>
+        </div>
+        <div class="section-content">
+          <h3>Towards Artist Style</h3>
+          <p>In this phase, we want to help students expand their creativity and imagination, so we ask them to freely draw lines using pen and paper without any restrictions. We have selected several line drafts, as shown below, from two artists, namely <a href="https://en.wikipedia.org/wiki/Jasper_Johns">Jasper John</a> and <a href="https://en.wikipedia.org/wiki/John_Cage">John Cage</a>, whose works can inspire students and help them break stereotype about storyline. We have also played a famous concerto (<i>Compact Forest Proposal</i>, created by <a href="https://en.wikipedia.org/wiki/Brian_Eno">Brian Eno</a>) as background music when students are drawing free lines.</p>
+          <div><img src="./material.png"></div>
+          <h3>Procedural</h3>
+          <ol>
+            <li>Students are divided into several groups and each group has three or four students.</li>
+            <li>In each group, every student is asked to follow the rhythm of one instrument.</li>
+            <li>Both the line drafts and the music are shown during the process of authoring.</li>
+            <li>All drafts from one group are superpositioned together to show the final result.</li>
+          </ol>
+        </div>
+      </section>
+      <section id="homework2" class="section">
+        <div class="section-title-wrapper">
+          <div class="section-title"><b>Hand-drawn Storyline</b></div>
+          <div class="section-gallery"><a href="https://github.com/tangtan/storyline/tree/master/02_hand-drawn_storylines">gallery</a></div>
+        </div>
+        <div class="section-content">
+          <h3>Visual Encodings</h3>
+          <ol>
+            <li>Lines represent characters.</li>
+            <li>Time-axis is placed horizontally.</li>
+            <li>The vertical grouping of lines indicates when and who are together.</li>
+          </ol>
+          <h3>Procedural</h3>
+          <p>In this phase, we ask students to follow these basic visual encodings of storylines, freely choose stories, and manually draw storylines. Students are allowed to use pen with any color and paper with any materials. After they finish the drafts, we first summarize some new features, and then conduct an interview with all students. By doing so, we can understand the design space of hand-drawn storylines and validate the design metric of state-of-the-art techniques. More conclusions can be found in the paper. Selected assignments can be accessible via the gallery link.</p>
+        </div>
+      </section>
+      <section id="homework3" class="section">
+        <div class="section-title-wrapper">
+          <div class="section-title"><b>Free-form Storyline</b></div>
+          <div class="section-gallery"><a href="./homework3/index.html">gallery</a></div>
+        </div>
+        <div class="section-content">
+          <h3>Procedural</h3>
+          <p>In this phase, we abandon the visual encoding two so that students may create more flexible and expressive layout of storylines. It is impossible to cover all aspects of the expanded design space using single algorithm, so our ambition is to provide an authoring tool which can help students create storylines efficiently. We ask students to create storylines using digital authoring tools, such as <i>Adobe Illustrator</i> and conduct a formal user study to see the drawbacks of existing authoring tools and summarize the design rationales which guide us to implement our authoring tool. Selected assignments can be accessible via the gallery link.</p>
+        </div>
+      </section>
+    </div>
+  </div>
+</body>
+</html>
